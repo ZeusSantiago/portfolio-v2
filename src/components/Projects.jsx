@@ -1,6 +1,9 @@
 import React from "react";
-import temp from "../assets/temp.jpg";
 import ProjectsItem from "./ProjectsItem";
+import fortune from "../assets/fortune-codies.png";
+import shopsuey from "../assets/shop-suey.png";
+import stictactoe from "../assets/stictactoe.png";
+import portv1 from "../assets/portfolio-v1.png";
 
 const Projects = () => {
   return (
@@ -12,10 +15,10 @@ const Projects = () => {
         praesentium unde?
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectsItem img={temp} title="Sample App" />
-        <ProjectsItem img={temp} title="Sample App" />
-        <ProjectsItem img={temp} title="Sample App" />
-        <ProjectsItem img={temp} title="Sample App" />
+        <ProjectsItem img={portv1} title="Sample App" />
+        <ProjectsItem img={shopsuey} title="Sample App" />
+        <ProjectsItem img={fortune} title="Sample App" />
+        <ProjectsItem img={stictactoe} title="Sample App" />
       </div>
     </div>
   );

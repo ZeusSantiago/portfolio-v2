@@ -1,12 +1,7 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import { MdMail } from "react-icons/md";
 
 function Home() {
   return (
@@ -41,12 +36,16 @@ function Home() {
             />
           </h2>
 
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebook className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedin className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+          <div className="flex gap-3 pt-6 max-w-[200px] w-full">
+            <a href="https://linkedin.com/in/grazeus-santiago">
+              <FaLinkedin className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://github.com/ZeusSantiago">
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
+            <a href="mailto:zeussantiago9@gmail.com">
+              <MdMail className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
