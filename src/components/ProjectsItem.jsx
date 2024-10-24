@@ -14,20 +14,20 @@ function ProjectsItem({ img, title, link }) {
         <div className="flex flex-row items-center justify-center gap-2">
           <img
             src={reactIcon}
-            className="size-10 border-2 border-teal-900 bg-gray-700 rounded-md"
+            className="md:size-10 size-5 border-2 border-teal-900 bg-gray-700 rounded-md"
           />
           <img
             src={tailwindIcon}
-            className="size-10 border-2 border-teal-900 bg-gray-700 rounded-md"
+            className="md:size-10 size-5 border-2 border-teal-900 bg-gray-700 rounded-md"
           />
           <img
             src={viteIcon}
-            className="size-10 border-2 border-teal-900 bg-gray-700 rounded-md"
+            className="md:size-10 size-5 border-2 border-teal-900 bg-gray-700 rounded-md"
           />
         </div>
         <div className="flex flex-row items-center justify-center">
           <a href={link} target="_blank">
-            <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg w-44">
+            <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer w-28 text-sm md:text-lg md:w-44">
               More Info
             </p>
           </a>
