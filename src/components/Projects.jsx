@@ -15,10 +15,22 @@ const Projects = () => {
         praesentium unde?
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectsItem img={portv1} title="Sample App" />
-        <ProjectsItem img={shopsuey} title="Sample App" />
-        <ProjectsItem img={fortune} title="Sample App" />
-        <ProjectsItem img={stictactoe} title="Sample App" />
+        <ProjectsItem img={portv1} title="Portfolio V1" link={"/"} />
+        <ProjectsItem
+          img={shopsuey}
+          title="Shop-Suey"
+          link={"https://shop-suey.vercel.app/"}
+        />
+        <ProjectsItem
+          img={fortune}
+          title="Fortune-Codies"
+          link={"https://fortune-codies.vercel.app/"}
+        />
+        <ProjectsItem
+          img={stictactoe}
+          title="Super Tic-Tac-Toe"
+          link={"https://s-tic-tac-toe.vercel.app/"}
+        />
       </div>
     </div>
   );
