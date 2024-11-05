@@ -7,13 +7,12 @@ const Resume = () => {
       <h1 className="text-4xl font-bold text-center text-teal-800">Resume</h1>
       <h2 className="text-2xl font-bold text-teal-700">Profile</h2>
       <p className="text-justify py-2 mb-6">
-        Experienced application developer with a strong command of Spring Boot,
-        Guidewire InsuranceSuite, and Laravel frameworks. Currently focusing on
-        web full stack development. Proficient in React.js, Tailwind CSS,
-        Express.js. Eager to apply my skills as my current situation,
-        characterized by an overabundance of upskilling and a lack of project
-        opportunities, has fueled my desire to make an immediate impact in a
-        dynamic role.
+        Experienced application developer with a strong command of Guidewire
+        InsuranceSuite. Currently focusing on full stack web development.
+        Proficient in React.js, Tailwind CSS, Express.js and MongoDB. Eager to
+        apply my skills as my current situation, characterized by an
+        overabundance of upskilling and a lack of project opportunities, has
+        fueled my desire to make an immediate impact in a dynamic role.
       </p>
       <a
         className=" border-teal-900 rounded-md border-2 p-2 font-semibold hover:bg-teal-700 hover:text-white"
