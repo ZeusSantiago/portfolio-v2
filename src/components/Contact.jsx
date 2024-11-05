@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="py-4 text-4xl font-bold text-center text-teal-900">
+      <h1 className="py-4 text-4xl font-bold text-center text-teal-800">
         Contact
       </h1>
       <form
@@ -53,7 +53,7 @@ const Contact = () => {
             name="message"
           ></textarea>
         </div>
-        <button className="bg-teal-900 text-gray-100 mt-4 w-full p-4 rounded-lg">
+        <button className="bg-teal-800 text-gray-100 mt-4 w-full p-4 rounded-lg">
           Send Message
         </button>
       </form>

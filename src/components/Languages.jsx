@@ -35,7 +35,7 @@ export default function Languages() {
   ];
 
   return (
-    <div id="languages" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id="technologies" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <div className="text-4xl font-bold text-center text-teal-800 mb-5">
         Technologies
       </div>

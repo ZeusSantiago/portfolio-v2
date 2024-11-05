@@ -7,7 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
+import { GrProjects, GrTechnology } from "react-icons/gr";
 
 function Sidenav() {
   const [nav, setNav] = useState(false);
@@ -30,6 +30,14 @@ function Sidenav() {
           >
             <AiOutlineHome size={20} />
             <span className="pl-4">Home</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#technologies"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <GrTechnology size={20} />
+            <span className="pl-4">Technologies</span>
           </a>
           <a
             onClick={handleNav}
@@ -81,7 +89,17 @@ function Sidenav() {
               Home
             </div>
           </div>
-
+          <div className="flex flex-row group items-center">
+            <a
+              href="#technologies"
+              className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <GrTechnology size={20} />
+            </a>
+            <div className="absolute left-20 hidden group-hover:block bg-slate-300 rounded-md px-2 py-1 font-semibold">
+              Technologies
+            </div>
+          </div>
           <div className="flex flex-row group items-center">
             <a
               href="#work"
