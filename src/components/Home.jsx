@@ -17,16 +17,15 @@ function Home() {
             I'm Grazeus Santiago
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
-            I'm a
             <TypeAnimation
               sequence={[
-                "Developer",
+                "Code with precision, deploy with care.",
                 1000,
-                "Creator.",
+                "Turning ideas into digital reality.",
                 1000,
-                "Curious Person.",
+                "Making the web a cooler place.",
                 1000,
-                "person who likes to explore.",
+                "I am a person who likes to explore.",
                 1000,
               ]}
               wrapper="span"
