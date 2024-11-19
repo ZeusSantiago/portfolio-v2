@@ -42,11 +42,12 @@ const Projects = () => {
         <ProjectsItem
           img={portv1}
           title="Blog Website"
-          details={"Coming Soon"}
+          link={"https://github.com/ZeusSantiago/blogexpressproject"}
+          details={"More Info"}
           stacks={["node", "express", "monggo"]}
         />
       </div>
-    </div>
+    </div> 
   );
 };
 
